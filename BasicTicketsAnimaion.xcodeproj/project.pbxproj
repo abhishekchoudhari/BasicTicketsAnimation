@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		749EA97E193589DE00822A3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EA97D193589DE00822A3D /* Foundation.framework */; };
+		749EA980193589DE00822A3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EA97F193589DE00822A3D /* CoreGraphics.framework */; };
+		749EA982193589DE00822A3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EA981193589DE00822A3D /* UIKit.framework */; };
+		749EA988193589DE00822A3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 749EA986193589DE00822A3D /* InfoPlist.strings */; };
+		749EA98A193589DE00822A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 749EA989193589DE00822A3D /* main.m */; };
+		749EA98E193589DE00822A3D /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 749EA98D193589DE00822A3D /* XYZAppDelegate.m */; };
+		749EA991193589DE00822A3D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749EA98F193589DE00822A3D /* Main_iPhone.storyboard */; };
+		749EA994193589DE00822A3D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749EA992193589DE00822A3D /* Main_iPad.storyboard */; };
+		749EA997193589DE00822A3D /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749EA996193589DE00822A3D /* XYZViewController.m */; };
+		749EA999193589DE00822A3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749EA998193589DE00822A3D /* Images.xcassets */; };
+		749EA9A0193589DE00822A3D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EA99F193589DE00822A3D /* XCTest.framework */; };
+		749EA9A1193589DE00822A3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EA97D193589DE00822A3D /* Foundation.framework */; };
+		749EA9A2193589DE00822A3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749EA981193589DE00822A3D /* UIKit.framework */; };
+		749EA9AA193589DE00822A3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 749EA9A8193589DE00822A3D /* InfoPlist.strings */; };
+		749EA9AC193589DE00822A3D /* BasicTicketsAnimaionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 749EA9AB193589DE00822A3D /* BasicTicketsAnimaionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		749EA9A3193589DE00822A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749EA972193589DE00822A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749EA979193589DE00822A3D;
+			remoteInfo = BasicTicketsAnimaion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		749EA97A193589DE00822A3D /* BasicTicketsAnimaion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicTicketsAnimaion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		749EA97D193589DE00822A3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		749EA97F193589DE00822A3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		749EA981193589DE00822A3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		749EA985193589DE00822A3D /* BasicTicketsAnimaion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicTicketsAnimaion-Info.plist"; sourceTree = "<group>"; };
+		749EA987193589DE00822A3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		749EA989193589DE00822A3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		749EA98B193589DE00822A3D /* BasicTicketsAnimaion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicTicketsAnimaion-Prefix.pch"; sourceTree = "<group>"; };
+		749EA98C193589DE00822A3D /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		749EA98D193589DE00822A3D /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		749EA990193589DE00822A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		749EA993193589DE00822A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		749EA995193589DE00822A3D /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
+		749EA996193589DE00822A3D /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		749EA998193589DE00822A3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		749EA99E193589DE00822A3D /* BasicTicketsAnimaionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicTicketsAnimaionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		749EA99F193589DE00822A3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		749EA9A7193589DE00822A3D /* BasicTicketsAnimaionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicTicketsAnimaionTests-Info.plist"; sourceTree = "<group>"; };
+		749EA9A9193589DE00822A3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		749EA9AB193589DE00822A3D /* BasicTicketsAnimaionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicTicketsAnimaionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		749EA977193589DE00822A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749EA980193589DE00822A3D /* CoreGraphics.framework in Frameworks */,
+				749EA982193589DE00822A3D /* UIKit.framework in Frameworks */,
+				749EA97E193589DE00822A3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749EA99B193589DE00822A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749EA9A0193589DE00822A3D /* XCTest.framework in Frameworks */,
+				749EA9A2193589DE00822A3D /* UIKit.framework in Frameworks */,
+				749EA9A1193589DE00822A3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		749EA971193589DE00822A3D = {
+			isa = PBXGroup;
+			children = (
+				749EA983193589DE00822A3D /* BasicTicketsAnimaion */,
+				749EA9A5193589DE00822A3D /* BasicTicketsAnimaionTests */,
+				749EA97C193589DE00822A3D /* Frameworks */,
+				749EA97B193589DE00822A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		749EA97B193589DE00822A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749EA97A193589DE00822A3D /* BasicTicketsAnimaion.app */,
+				749EA99E193589DE00822A3D /* BasicTicketsAnimaionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		749EA97C193589DE00822A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				749EA97D193589DE00822A3D /* Foundation.framework */,
+				749EA97F193589DE00822A3D /* CoreGraphics.framework */,
+				749EA981193589DE00822A3D /* UIKit.framework */,
+				749EA99F193589DE00822A3D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		749EA983193589DE00822A3D /* BasicTicketsAnimaion */ = {
+			isa = PBXGroup;
+			children = (
+				749EA98C193589DE00822A3D /* XYZAppDelegate.h */,
+				749EA98D193589DE00822A3D /* XYZAppDelegate.m */,
+				749EA98F193589DE00822A3D /* Main_iPhone.storyboard */,
+				749EA992193589DE00822A3D /* Main_iPad.storyboard */,
+				749EA995193589DE00822A3D /* XYZViewController.h */,
+				749EA996193589DE00822A3D /* XYZViewController.m */,
+				749EA998193589DE00822A3D /* Images.xcassets */,
+				749EA984193589DE00822A3D /* Supporting Files */,
+			);
+			path = BasicTicketsAnimaion;
+			sourceTree = "<group>";
+		};
+		749EA984193589DE00822A3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				749EA985193589DE00822A3D /* BasicTicketsAnimaion-Info.plist */,
+				749EA986193589DE00822A3D /* InfoPlist.strings */,
+				749EA989193589DE00822A3D /* main.m */,
+				749EA98B193589DE00822A3D /* BasicTicketsAnimaion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		749EA9A5193589DE00822A3D /* BasicTicketsAnimaionTests */ = {
+			isa = PBXGroup;
+			children = (
+				749EA9AB193589DE00822A3D /* BasicTicketsAnimaionTests.m */,
+				749EA9A6193589DE00822A3D /* Supporting Files */,
+			);
+			path = BasicTicketsAnimaionTests;
+			sourceTree = "<group>";
+		};
+		749EA9A6193589DE00822A3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				749EA9A7193589DE00822A3D /* BasicTicketsAnimaionTests-Info.plist */,
+				749EA9A8193589DE00822A3D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		749EA979193589DE00822A3D /* BasicTicketsAnimaion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749EA9AF193589DE00822A3D /* Build configuration list for PBXNativeTarget "BasicTicketsAnimaion" */;
+			buildPhases = (
+				749EA976193589DE00822A3D /* Sources */,
+				749EA977193589DE00822A3D /* Frameworks */,
+				749EA978193589DE00822A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicTicketsAnimaion;
+			productName = BasicTicketsAnimaion;
+			productReference = 749EA97A193589DE00822A3D /* BasicTicketsAnimaion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		749EA99D193589DE00822A3D /* BasicTicketsAnimaionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749EA9B2193589DE00822A3D /* Build configuration list for PBXNativeTarget "BasicTicketsAnimaionTests" */;
+			buildPhases = (
+				749EA99A193589DE00822A3D /* Sources */,
+				749EA99B193589DE00822A3D /* Frameworks */,
+				749EA99C193589DE00822A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749EA9A4193589DE00822A3D /* PBXTargetDependency */,
+			);
+			name = BasicTicketsAnimaionTests;
+			productName = BasicTicketsAnimaionTests;
+			productReference = 749EA99E193589DE00822A3D /* BasicTicketsAnimaionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		749EA972193589DE00822A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Abhishek;
+				TargetAttributes = {
+					749EA99D193589DE00822A3D = {
+						TestTargetID = 749EA979193589DE00822A3D;
+					};
+				};
+			};
+			buildConfigurationList = 749EA975193589DE00822A3D /* Build configuration list for PBXProject "BasicTicketsAnimaion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 749EA971193589DE00822A3D;
+			productRefGroup = 749EA97B193589DE00822A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749EA979193589DE00822A3D /* BasicTicketsAnimaion */,
+				749EA99D193589DE00822A3D /* BasicTicketsAnimaionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		749EA978193589DE00822A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749EA994193589DE00822A3D /* Main_iPad.storyboard in Resources */,
+				749EA999193589DE00822A3D /* Images.xcassets in Resources */,
+				749EA991193589DE00822A3D /* Main_iPhone.storyboard in Resources */,
+				749EA988193589DE00822A3D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749EA99C193589DE00822A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749EA9AA193589DE00822A3D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		749EA976193589DE00822A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749EA997193589DE00822A3D /* XYZViewController.m in Sources */,
+				749EA98E193589DE00822A3D /* XYZAppDelegate.m in Sources */,
+				749EA98A193589DE00822A3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749EA99A193589DE00822A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749EA9AC193589DE00822A3D /* BasicTicketsAnimaionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		749EA9A4193589DE00822A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749EA979193589DE00822A3D /* BasicTicketsAnimaion */;
+			targetProxy = 749EA9A3193589DE00822A3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		749EA986193589DE00822A3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749EA987193589DE00822A3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		749EA98F193589DE00822A3D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749EA990193589DE00822A3D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		749EA992193589DE00822A3D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749EA993193589DE00822A3D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		749EA9A8193589DE00822A3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749EA9A9193589DE00822A3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		749EA9AD193589DE00822A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		749EA9AE193589DE00822A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		749EA9B0193589DE00822A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicTicketsAnimaion/BasicTicketsAnimaion-Prefix.pch";
+				INFOPLIST_FILE = "BasicTicketsAnimaion/BasicTicketsAnimaion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		749EA9B1193589DE00822A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicTicketsAnimaion/BasicTicketsAnimaion-Prefix.pch";
+				INFOPLIST_FILE = "BasicTicketsAnimaion/BasicTicketsAnimaion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		749EA9B3193589DE00822A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasicTicketsAnimaion.app/BasicTicketsAnimaion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicTicketsAnimaion/BasicTicketsAnimaion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BasicTicketsAnimaionTests/BasicTicketsAnimaionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		749EA9B4193589DE00822A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasicTicketsAnimaion.app/BasicTicketsAnimaion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicTicketsAnimaion/BasicTicketsAnimaion-Prefix.pch";
+				INFOPLIST_FILE = "BasicTicketsAnimaionTests/BasicTicketsAnimaionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		749EA975193589DE00822A3D /* Build configuration list for PBXProject "BasicTicketsAnimaion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749EA9AD193589DE00822A3D /* Debug */,
+				749EA9AE193589DE00822A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749EA9AF193589DE00822A3D /* Build configuration list for PBXNativeTarget "BasicTicketsAnimaion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749EA9B0193589DE00822A3D /* Debug */,
+				749EA9B1193589DE00822A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		749EA9B2193589DE00822A3D /* Build configuration list for PBXNativeTarget "BasicTicketsAnimaionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749EA9B3193589DE00822A3D /* Debug */,
+				749EA9B4193589DE00822A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 749EA972193589DE00822A3D /* Project object */;
+}
